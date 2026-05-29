@@ -39,7 +39,7 @@ function App() {
 
     if (!providerRef.current && roomId) {
       providerRef.current = new SocketIOProvider(
-        "https://editor-o66f.onrender.com",
+        "https://real-time-collaborative-nraj.onrender.com",
         roomId,       // ← yahan room ID use ho rahi hai
         ydoc,
         { autoConnect: true }
